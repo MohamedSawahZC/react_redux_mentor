@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <h3>Counter : {data}</h3>
       <h3>Log Status : {`${isLog}`}</h3>
-      <button onClick={() => dispathCounter({ type: "INCREMENT" })}>
+      <button onClick={() => dispathCounter({ type: "I NCREMENT" })}>
         Increase
       </button>
       <button onClick={() => dispathCounter({ type: "DECREMENT" })}>
